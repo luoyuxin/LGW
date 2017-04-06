@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="initial-scale=1,maximun-scale=1,minimun-scale=1,user-scalable=none">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>拉勾网</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div ui-view class="animated fadeIn"></div> 
+    <script>
+        document.getElementsByTagName('html')[0].style.fontSize = window.screen.width / 10 + 'px';
+    </script>
+    <script src="vendor/angular/angular.min.js" charset="utf-8"></script>
+    <script src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="vendor/angular-cookies/angular-cookies.min.js"></script>
+    <!--<script src="vendor/angular-animate/angular-animate.min.js"></script>-->
+    <script src="vendor/angular-validation/dist/angular-validation.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
